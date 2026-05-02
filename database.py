@@ -24,7 +24,7 @@ def init_db():
         amount REAL,
         description TEXT,
         timestamp DATETIME,
-        FOREIGN KEY (user_id) REFERENCES users (user_id)
+        FOREIGN KEY (user_id) REFERENCES users (7579886970)
     )
     ''')
     

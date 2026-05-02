@@ -11,14 +11,14 @@ load_dotenv()
 
 # Token va URL larni olish
 # Siz bergan token: 8622573055:AAFHX-rTKHAmx50o_m0psqSzM9DED1UmvGk
-API_TOKEN = os.getenv("BOT_TOKEN") or "8622573055:AAFHX-rTKHAmx50o_m0psqSzM9DED1UmvGk"
+API_TOKEN = os.getenv("8622573055:AAFHX-rTKHAmx50o_m0psqSzM9DED1UmvGk") or "8622573055:AAFHX-rTKHAmx50o_m0psqSzM9DED1UmvGk"
 WEB_APP_URL = os.getenv("APP_URL")
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 
 # Initialize bot and dispatcher
-bot = Bot(token=API_TOKEN)
+bot = Bot(token="8622573055:AAFHX-rTKHAmx50o_m0psqSzM9DED1UmvGk")
 dp = Dispatcher()
 
 @dp.message(Command("start"))

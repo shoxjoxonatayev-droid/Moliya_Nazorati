@@ -5,7 +5,7 @@ Ushbu bot restoran, mehmonxona va shaxsiy xarajatlarni hisobga olish uchun yarat
 ## 🚀 Ishga tushirish yo'riqnomasi
 
 1. **Telegramdan Bot Token oling:**
-   - [@BotFather](https://t.me/botfather) ga boring.
+   - [@BotFather](8622573055:AAFHX-rTKHAmx50o_m0psqSzM9DED1UmvGk) ga boring.
    - `/newbot` komandasi orqali yangi bot yarating va API tokenini nusxalab oling.
 
 2. **Kutubxonalarni o'rnating:**
